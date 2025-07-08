@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: cursive;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.759),rgba(0, 0, 0, 0.733)), url(bg-image.jpg);
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color:rgb(254, 217, 8);
+    font-size: 28px;
+}
+
+span{
+    color: crimson;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: rgb(157, 91, 5);
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+nav ul li a:hover{
+    color:crimson;
+    transition: all.3s;
+}
+
+.login{
+    border: none;
+    background: crimson;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    text-decoration: none;
+
+}
+
+.login:hover{
+    transform: scale(1.3);
+}
+
+.trans{
+    margin: 50px auto;
+    width: 200px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.bar{
+    width: 100%;
+    height: 40px;
+    padding-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.bar button{
+    border: none;
+    height: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) transparent;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    text-decoration: none;
+
+}
+
+.bar button:hover{
+    transform: scale(1.3);
+}
+
+.shop{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.trans{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 32px;
+}
+
+.box{
+    padding: 0px 20px 10px 20px;
+    background-color: grey;
+    box-shadow: 5px 20px 20px rgb(7, 7, 7);
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s ease;
+    height: 250px;
+}
+
+.box h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.box h5{
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.box:hover{
+    transform: translateY(-5px);
+}
+
+.buy a{
+    text-decoration: none;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.158),rgba(0, 0, 0, 0.105)), transparent;
+    color: rgb(235, 42, 84);
+    padding: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    transition:0.5s;
+}
+
+.box img{
+    width: 180px;
+    height: 140px;
+    box-shadow: 0px 10px 15px rgba(233,233,233,0.5);
+    border-radius: 8px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+
+.box:hover img{
+    transform: perspective(250px) rotateX(-20deg) translateY(-20%);
+    opacity: 0.9;
+}
+
+.page-6{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: colum;
+    margin: 20px;
+}
+
+.about-img{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    transition: all 0.3s ease;
+}
+
+.about-img:hover{
+    transform: scale(1.2);
+}
+
+.about-us h1{
+    color: crimson;
+    margin: 30px;
+}
+
+.about-us p{
+    color: antiquewhite;
+    margin: 20px;
+}
+
+.page-7{
+    margin-top: 40px;
+    background-color: rgba(128, 128, 128, 0.355);
+    color: antiquewhite;
+    text-align: center;
+    font-size: small;
+}
+
+::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0, 0.402);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(113, 4, 4, 0.497);
+    border-radius: 10px;
+}
